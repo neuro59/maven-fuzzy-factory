@@ -1,0 +1,42 @@
+{
+  "name": "Maven Fuzzy Factory",
+  "dataColors": [
+    "#4285F4",
+    "#008373",
+    "#E1306C",
+    "#9E9E9E",
+    "#FFB300",
+    "#8E24AA",
+    "#00ACC1",
+    "#F4511E"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#252525",
+  "tableAccent": "#4285F4",
+  "good": "#2E7D32",
+  "neutral": "#FFB300",
+  "bad": "#C62828",
+  "textClasses": {
+    "title": {
+      "fontSize": 16,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#252525"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#252525"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#252525"
+    },
+    "callout": {
+      "fontSize": 32,
+      "fontFace": "Segoe UI Light",
+      "color": "#252525"
+    }
+  },
+  "visualStyles": {}
+}

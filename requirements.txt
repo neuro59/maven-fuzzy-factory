@@ -1,0 +1,12 @@
+# =============================================================================
+# Maven Fuzzy Factory - Python analysis environment
+# =============================================================================
+pandas>=2.2
+numpy>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+jupyterlab>=4.0        # notebook runtime
+nbconvert>=7.0         # headless notebook execution

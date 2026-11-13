@@ -1,0 +1,27 @@
+# --- Secrets (never commit) ---
+.env
+*.env
+!.env.example
+
+# --- Raw source data (large, third-party practice dataset) ---
+# The maven-fuzzy-factory CSVs are ~100 MB combined and are redistributed by
+# Maven Analytics. Download them separately; see README "Data" section.
+maven-fuzzy-factory/*.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+
+# --- Conda / virtual environments ---
+.conda/
+.venv/
+env/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
