@@ -144,10 +144,7 @@ jupyter lab notebook/maven_fuzzy_factory_analysis.ipynb
 
 The notebook runs top-to-bottom. The PostgreSQL section degrades gracefully if no database is available.
 
-### 5. Power BI
-
-Follow [`powerbi/POWERBI_DASHBOARD_GUIDE.md`](powerbi/POWERBI_DASHBOARD_GUIDE.md), loading the star-schema tables
-from `powerbi/data/`.
+# 
 
 ---
 
