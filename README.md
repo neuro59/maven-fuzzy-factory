@@ -59,6 +59,10 @@ Built with **Python (pandas)** for analysis, **PostgreSQL** for the warehouse-an
 | ![Funnel](docs/figures/fig5_funnel.png)                          | ![Funnel by channel](docs/figures/fig6_funnel_by_channel.png)                   |
 | ![Device](docs/figures/fig7_device.png)                          | ![Monthly trend](docs/figures/fig8_monthly_trend.png)                           |
 
+[Power BI Dashboard PDF](https://github.com/neuro59/maven-fuzzy-factory/blob/main/powerbi/dashboard-pdf.pdf)
+
+
+
 ---
 
 ## Repository structure
