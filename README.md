@@ -61,8 +61,6 @@ Built with **Python (pandas)** for analysis, **PostgreSQL** for the warehouse-an
 
 [Power BI Dashboard PDF](https://github.com/neuro59/maven-fuzzy-factory/blob/main/powerbi/dashboard-pdf.pdf)
 
-
-
 ---
 
 ## Repository structure
@@ -98,7 +96,7 @@ Built with **Python (pandas)** for analysis, **PostgreSQL** for the warehouse-an
 | ----------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | Analysis    | Python, pandas, NumPy, matplotlib, seaborn          | data QA, metric design, EDA, funnel analysis, statistical framing, clear visual storytelling              |
 | Warehouse   | PostgreSQL 18, SQL                                  | schema design, primary/foreign keys, `COPY` bulk load, `GROUP BY … FILTER`, window functions, CTEs, views |
-| BI          | Power BI                                            | star-schema data model, DAX measures, interactive multi-page dashboard, drill-through                     |
+| BI          | Power BI                                            | star-schema data model, DAX measures, interactive multi-page dashboard                                    |
 | Engineering | psycopg2, SQLAlchemy, python-dotenv, nbconvert, Git | reproducible ETL, secrets handling, notebook automation                                                   |
 
 **Analytical rigour:** a 15-check data-quality gate runs before any metric is computed, and **every headline figure is independently recomputed in SQL and reconciles exactly** to the pandas result (4/4 channels).
